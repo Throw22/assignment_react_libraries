@@ -1,0 +1,38 @@
+//Colors
+$white:  #fff !default;
+$black:  #000 !default;
+$red:    #FF6B67;
+$orange: #f0ad4e !default;
+$yellow: #ffd500 !default;
+$green:  #5cb85c !default;
+$blue:   #5B99CD;
+$teal:   #5bc0de !default;
+$pink:   #ff5b77 !default;
+$purple: #613d7c !default;
+
+//Greyscale
+$gray-dark:                 #292b2c !default;
+$gray:                      #464a4c !default;
+$gray-light:                #636c72 !default;
+$gray-lighter:              #eceeef !default;
+$gray-lightest:             #f7f7f9 !default;
+
+//Brands
+$brand-primary:             $blue !default;
+$brand-success:             $green !default;
+$brand-info:                $teal !default;
+$brand-warning:             $orange !default;
+$brand-danger:              $red !default;
+$brand-inverse:             $gray-dark !default;
+
+// Jumbotron
+$jumbotron-padding:              2rem !default;
+$jumbotron-bg:                   #E1A7A5;
+
+// Navbar
+$navbar-light-color:                rgba($purple,.5);
+$navbar-light-hover-color:          rgba($purple,.7);
+$navbar-light-active-color:         rgba($purple,.9);
+$navbar-light-disabled-color:       rgba($purple,.3);
+$navbar-light-toggler-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-light-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-light-toggler-border-color: rgba($purple,.1);
